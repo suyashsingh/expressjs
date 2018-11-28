@@ -43,10 +43,10 @@ Express Sample Codes
     app.listen(3000);
 
     
-`app.get(route, callback)`. the `get` can be replaced by any of the HTTP requests.
-The callback function will be called when the client requests that url.
+    `app.get(route, callback)`. the `get` can be replaced by any of the HTTP requests.
+    The callback function will be called when the client requests that url.
 
-The callback function has two parameters, request(req) & response(res).
+    The callback function has two parameters, request(req) & response(res).
 
 * The HTTP requests are also called `HTTP verbs` at places.
 
@@ -60,7 +60,6 @@ benifitial in defining middle wares.
 
 The syntax is: 
 
-`app.all('/hello', callback_function(req, res))`
     app.all('/hello', function(req, res){
     res.send("This method will handle all the requests.");
     });
