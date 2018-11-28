@@ -25,8 +25,11 @@ Routing simply means what action will be taken when there is a client request on
 a specific HTTP request method.
 
 The key points are:
+
     1. URL
+
     2. [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) (GET, POST, PUT, DELETE, HEAD, OPTIONS)
+    
    
 You can use [Postman](https://www.getpostman.com/apps) to send HTTP requests you want.
 
