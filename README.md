@@ -18,3 +18,8 @@ Genreate the app with pug as the view engine. If you want to change the view eng
 `npm start` To start the application.
 
 Open the page `localhost:3000`
+
+Routing
+---
+Routing simply means what action will be taken when there is a client request on a particular URL & 
+a specific HTTP request method.
