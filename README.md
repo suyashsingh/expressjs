@@ -64,6 +64,18 @@ The syntax is:
     res.send("This method will handle all the requests.");
     });
 
+*Routers: Using routers will make the code more maintainable as the routes are defined in separate file.
+
+* Routes can be either static or dynamic.
+
+* Passing parameters in the url will be an example of `Dynamic route`. Dynamic routes can be used
+    at any level you want. For eg. at root level or at a sub level, say at `/hello`.
+
+* You can match patterns in your route, and the requests that escape the pattern can be matched using the `*`
+    wild card in the route. 
+    *As express processes the main js file i.e. either app.js or index.js from start to end.*
+    *Put the match every thing pattern at the end*
+
 
 ## Examples
 
